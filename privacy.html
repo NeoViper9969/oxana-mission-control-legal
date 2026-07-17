@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Oxana Mission Control &mdash; Privacy Policy</title>
+<style>
+  :root { --bg:#F6F8F7; --ink:#141917; --muted:#5B6864; --accent:#1F9D7C; --border:#DDE4E1; --card:#FFFFFF; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#0B0F0E; --ink:#EAF2EF; --muted:#93A39D; --accent:#3FD6AC; --border:#22302B; --card:#101513; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font-family:system-ui,-apple-system,"Segoe UI",sans-serif; line-height:1.6; }
+  .page { max-width:680px; margin:0 auto; padding:4rem 1.5rem 5rem; }
+  header { display:flex; align-items:center; gap:.6rem; padding-bottom:1.5rem; border-bottom:1px solid var(--border); margin-bottom:2.5rem; }
+  .dot { width:10px; height:10px; border-radius:50%; background:var(--accent); flex-shrink:0; }
+  .brand { font-size:.8rem; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); font-family:ui-monospace,"Cascadia Code",Consolas,monospace; }
+  h1 { font-family:Georgia,"Iowan Old Style","Palatino Linotype",serif; font-size:2rem; font-weight:500; margin:0 0 .4rem; }
+  .dek { color:var(--muted); font-size:1rem; margin:0 0 3rem; }
+  h2 { font-family:Georgia,"Iowan Old Style","Palatino Linotype",serif; font-size:1.25rem; font-weight:500; margin:2.6rem 0 .9rem; }
+  p { margin:0 0 1rem; }
+  ul { margin:0 0 1rem; padding-left:1.3rem; }
+  li { margin-bottom:.4rem; }
+  a { color:var(--accent); }
+  footer { margin-top:3.5rem; padding-top:1.5rem; border-top:1px solid var(--border); font-family:ui-monospace,"Cascadia Code",Consolas,monospace; font-size:.78rem; letter-spacing:.03em; color:var(--muted); display:flex; justify-content:space-between; flex-wrap:wrap; gap:.5rem; }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <span class="dot"></span>
+    <span class="brand">Oxana Mission Control</span>
+  </header>
+
+  <h1>Privacy Policy</h1>
+  <p class="dek">Last updated: July 16, 2026</p>
+
+  <h2>What this is</h2>
+  <p>
+    Oxana Mission Control is a personal automation application built and used exclusively by its
+    developer, Jonathan Hayes, to manage his own social media accounts for one project,
+    <strong>Sam Says</strong>. It is not a public product, is not distributed to other users, and is
+    not offered as a service to anyone besides its developer.
+  </p>
+
+  <h2>What data this application accesses</h2>
+  <p>
+    Via the official APIs of the platforms the developer connects (currently YouTube and TikTok,
+    with additional platforms such as Instagram planned), solely for accounts the developer owns and
+    operates:
+  </p>
+  <ul>
+    <li>Account and video metadata (titles, descriptions, upload/publish status)</li>
+    <li>The ability to upload or schedule videos to the developer's own account(s)</li>
+    <li>Basic account analytics (views, engagement) where the platform's API provides it</li>
+  </ul>
+  <p>Access is authorized once through each platform's own OAuth consent screen.</p>
+
+  <h2>How this data is used</h2>
+  <p>
+    To power a local dashboard the developer uses to review analytics and manage publishing for his
+    own channel, and to let that dashboard recognize newly published content so it can update
+    itself. Data is never analyzed, aggregated, or used for any purpose beyond operating this one
+    channel across the platforms it publishes to.
+  </p>
+
+  <h2>Where this data is stored</h2>
+  <p>
+    Entirely on the developer's own personal computer. Authorization tokens and cached responses are
+    stored locally in a private, access-restricted folder. Nothing is uploaded to any server, cloud
+    service, or third party.
+  </p>
+
+  <h2>Data sharing</h2>
+  <p>
+    None. This application never sells, shares, or discloses data to any third party. The only data
+    that ever leaves the developer's machine is: requests made directly to each platform's own API,
+    and, optionally, brief operational status messages (for example, "a video finished processing")
+    sent to a private notification channel the developer personally controls &mdash; these contain no
+    account credentials and no viewer or follower personal data.
+  </p>
+
+  <h2>Data retention and deletion</h2>
+  <p>
+    Authorization tokens remain stored locally until the developer revokes access through the
+    relevant platform's own account settings &mdash; revocation immediately and permanently stops all
+    API access, and this application deletes its locally cached tokens on the next run.
+  </p>
+
+  <h2>Children's privacy</h2>
+  <p>
+    This application is not directed at children and processes no data belonging to any end user
+    other than its single developer-operator.
+  </p>
+
+  <footer>
+    <span>Contact: Jonathan Hayes &middot; hayesjonathan7070@gmail.com</span>
+    <span>v1.0</span>
+  </footer>
+</div>
+</body>
+</html>
